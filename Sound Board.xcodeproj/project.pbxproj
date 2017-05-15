@@ -13,6 +13,7 @@
 		CCF072FD1ECA4AF50000B175 /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCF072FB1ECA4AF50000B175 /* Sound_Board.xcdatamodeld */; };
 		CCF072FF1ECA4AF50000B175 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF072FE1ECA4AF50000B175 /* Assets.xcassets */; };
 		CCF073021ECA4AF50000B175 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF073001ECA4AF50000B175 /* LaunchScreen.storyboard */; };
+		CCF0730A1ECA4E4F0000B175 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF073091ECA4E4F0000B175 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CCF072FE1ECA4AF50000B175 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCF073011ECA4AF50000B175 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCF073031ECA4AF50000B175 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF073091ECA4E4F0000B175 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				CCF072F41ECA4AF50000B175 /* AppDelegate.swift */,
 				CCF072F61ECA4AF50000B175 /* ViewController.swift */,
+				CCF073091ECA4E4F0000B175 /* SoundViewController.swift */,
 				CCF072F81ECA4AF50000B175 /* Main.storyboard */,
 				CCF072FE1ECA4AF50000B175 /* Assets.xcassets */,
 				CCF073001ECA4AF50000B175 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF0730A1ECA4E4F0000B175 /* SoundViewController.swift in Sources */,
 				CCF072FD1ECA4AF50000B175 /* Sound_Board.xcdatamodeld in Sources */,
 				CCF072F71ECA4AF50000B175 /* ViewController.swift in Sources */,
 				CCF072F51ECA4AF50000B175 /* AppDelegate.swift in Sources */,
@@ -266,6 +270,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Sound Board/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jorgemota.Sound-Board";
@@ -278,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Sound Board/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jorgemota.Sound-Board";
